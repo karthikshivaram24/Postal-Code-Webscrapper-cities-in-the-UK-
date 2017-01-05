@@ -101,6 +101,9 @@ def city_county_postcode_mapper(url):
     # County_data --> index,county,towns_link,country,no_of_towns
     county_data, town_links = generalized_table_scrapper(url+"/towns-in-uk/",2,5)
 
+    if os.path.exists("County_Files/") == False:
+        os.makedirs("County_Files/")
+
     for link in range(len(town_links)):
 
         my_file = Path("County_Files"+os.path.sep+county_data[link][1]+".csv")
