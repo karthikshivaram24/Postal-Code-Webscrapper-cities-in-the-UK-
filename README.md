@@ -11,5 +11,5 @@ The following libraries need to be present for the script to work :
 1) BeautifulSoup  
 2) urllib  
 3) pathlib  
-4) csv
+4) csv  
 5) os
