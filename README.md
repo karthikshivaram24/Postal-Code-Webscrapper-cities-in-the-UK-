@@ -4,7 +4,7 @@ This program/code basically scrapes the site "https://www.townscountiespostcodes
 _*Steps to run:*_  
 1) Navigate to this folder (which ever directory you have forked / pulled it in)  
 2) Then run webScrapper.py using the command:  
-$ python webScrapper.py  
+&nbsp;&nbsp;$ python webScrapper.py  
 
 _*Requirements:*_  
 The following libraries need to be present for the script to work :  
